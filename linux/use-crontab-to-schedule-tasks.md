@@ -8,3 +8,4 @@ crontab -l
 
 0 * * *  * sync; echo 3 > /proc/sys/vm/drop_caches
 ```
+[Reference](https://itsubuntu.com/how-to-clear-memory-cache-on-linux/)

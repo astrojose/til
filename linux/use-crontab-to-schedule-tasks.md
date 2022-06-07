@@ -3,6 +3,8 @@ To schedule the task, edit the cron on your linux by using command
 > crotab -e
 Then add these lines
 
->crontab -l
+```console
+crontab -l
 
->0 * * *  * sync; echo 3 > /proc/sys/vm/drop_caches
+0 * * *  * sync; echo 3 > /proc/sys/vm/drop_caches
+```
